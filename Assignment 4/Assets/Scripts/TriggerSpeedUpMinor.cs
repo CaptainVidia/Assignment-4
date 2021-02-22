@@ -1,4 +1,10 @@
-﻿using UnityEngine;
+﻿/*George Tang
+ * Assignment 4
+ * TriggerSpeedUpMinor.cs
+ * Speeds the player for a little amount. Display shows the player
+ * enter a SpeedUpMinorTrigger.
+*/
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -15,7 +21,7 @@ public class TriggerSpeedUpMinor : PlayerDecorator
     {
         get
         {
-            return playerTriggerZones.speed + 5;
+            return playerTriggerZones.speed + 10;
         }
         set
         {
@@ -27,7 +33,7 @@ public class TriggerSpeedUpMinor : PlayerDecorator
     {
         get
         {
-            return playerTriggerZones.triggerZones += ", SpeedUpMinor";
+            return playerTriggerZones.triggerZones = "SpeedUpMinor! Let's Build that Speed!!";
         }
         set
         {

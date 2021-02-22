@@ -5,8 +5,7 @@ using System.Collections.Generic;
 
 public class TriggerZone : MonoBehaviour
 {
-    //SoeedDownMajor = stop, game win!!
-    public enum TriggerZoneType {SLOWDOWNMINOR, SPEEDUPMAJOR, SPEEDUPMINOR}
+    public enum TriggerZoneType {SLOWDOWNMINOR, SPEEDUPMAJOR, SPEEDUPMINOR, SLOWDOWNMAJOR}
     public TriggerZoneType triggerZoneType;
     
 }
